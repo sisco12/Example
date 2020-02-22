@@ -41,6 +41,7 @@ public class Example {
 		WebElement date_field = driver.findElement(By.cssSelector("input[ref=inputElement]"));
 		WebElement area = driver.findElement(By.cssSelector("textarea[name*=WhyDidYouJoinTheTestingArea]"));
 		WebElement field = driver.findElement(By.xpath("//*[contains(text(),'This field is required.')]"));
+		WebElement success = driver.findElement(By.xpath("//*[contains(text(),'Information sent successfully')]"));
 		
 		//check of the page title
 		assertEquals(Title,driver.getTitle());
@@ -63,6 +64,12 @@ public class Example {
 		
 		//if one field was missing test wont pass
 		assertTrue("Field is missing", field.isDisplayed());
+		
+		//last check
+		assertTrue("Failure of sending the form", success.isDisplayed());
+		
+		
+		
 	}
 	@After
 	public void close() {
