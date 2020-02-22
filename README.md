@@ -10,9 +10,6 @@ Description :
 Once you are connected to the website and you start filling the fields.
 You release that you can put a future birthday and submit the form.
 
-Solution:
-must be introduced some check at that point.
-
 
 #Bug 2
 Bug Title : security
@@ -21,6 +18,9 @@ Priority:Critical.
 
 Resolution:unresolved
 
+Description:
+
+in the name field we have to implement some checks for example that prohibet the user from inserting some numbers or some alphanumerical.
 
 
 #Explanation about the methodology
