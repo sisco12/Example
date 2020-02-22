@@ -65,7 +65,7 @@ public class Example {
 		//if one field was missing test wont pass
 		assertTrue("Field is missing", field.isDisplayed());
 		
-		//last check
+		//last check if we get the new page
 		assertTrue("Failure of sending the form", success.isDisplayed());
 		
 		
