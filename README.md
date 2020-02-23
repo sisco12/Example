@@ -1,4 +1,4 @@
-# Bug1 Report
+#Report
 
 Bug Title : my future Birthday.
 
