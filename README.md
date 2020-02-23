@@ -1,6 +1,6 @@
 #Report
 
-Bug Title : my future Birthday.
+Defect Title : my future Birthday.
 
 Priority:Critical.
 
@@ -11,8 +11,7 @@ Once you are connected to the website and you start filling the fields.
 You release that you can put a future birthday and submit the form.
 
 
-#Bug 2
-Bug Title : security
+Defect Title : security
 
 Priority:Critical.
 
